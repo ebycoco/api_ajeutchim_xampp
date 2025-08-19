@@ -1,0 +1,5 @@
+gesdinet_jwt_refresh_token:
+    ttl: 604800          # 7 jours en secondes
+    firewall: api        # firewall où s’applique le refresh
+    user_provider: app_user_provider
+    refresh_token_class: App\Entity\RefreshToken
